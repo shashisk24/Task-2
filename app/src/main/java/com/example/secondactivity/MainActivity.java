@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void launchSecondActivity(View view) {
         Log.d(LOG_TAG, "Button clicked!");
-        Intent intent = new Intent(this, SecondActivity.class);
+        Intent intent = new Intent(this, Second_Activity.class);
         String message = mMessageEditText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
